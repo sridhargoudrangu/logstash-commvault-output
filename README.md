@@ -29,6 +29,7 @@ Use the following logstash output configuration to write into commvault data.
                     password_cv => "<Base64 encoded commvault password>"
                     datasourcename_cv => "<Descriptive data source name for commvault endpoint>"
                     idle_flush_time => <Flushinterval>
+                    
                     headers => {
                             "Accept" => "application/json"
                             "Content-type" => "application/json"
@@ -36,5 +37,6 @@ Use the following logstash output configuration to write into commvault data.
                     flush_size => <Bulk flush size>
                     format => "json"
                     template_file=>"path\to\json\template"
+                    analytics_engine_name => "<Commvault analytics engine client name>"
             }
     }
