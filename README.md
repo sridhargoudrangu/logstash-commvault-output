@@ -11,10 +11,13 @@ http://documentation.commvault.com/commvault/v11/article?p=features/data_cube/c_
 
 ### Installation
 
-Download the release from https://github.com/CommvaultEngg/logstash-commvault-output/releases/download/0.1.0/logstash-output-cv-0.1.0.gem
+Download the release from this [link](https://github.com/CommvaultEngg/logstash-commvault-output/releases/download/0.1.0/logstash-output-cv-0.1.0.gem)
 
-Execute logstash-plugin install logstash-output-cv-0.1.0.gem
+Execute
 
+```sh
+logstash-plugin install logstash-output-cv-0.1.0.gem
+```
 
 ### Usage Example. 
 
