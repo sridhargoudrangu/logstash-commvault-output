@@ -1,8 +1,11 @@
 # logstash-commvault-output
 Logstash output plugin for commvault datacube endpoint.
-
 This output lets you send events to a DataCube endpoint.
-http://documentation.commvault.com/commvault/v11/article?p=features/data_cube/c_data_cube_overview.htm
+
+### Documentation
+Here is a link to the Data Cube [documentation.](http://documentation.commvault.com/commvault/v11/article?p=features/data_cube/c_data_cube_overview.htm)
+
+Check out the [wiki](https://github.com/CommvaultEngg/logstash-commvault-output/wiki) for further details.
 
 ### Features
 * Write to commvault open data source endpoint and visualize the data using commvault custom reports engine.
@@ -11,7 +14,13 @@ http://documentation.commvault.com/commvault/v11/article?p=features/data_cube/c_
 
 ### Installation
 
-Download the release from this [link](https://github.com/CommvaultEngg/logstash-commvault-output/releases/download/0.1.0/logstash-output-cv-0.1.0.gem)
+Before using this plugin, make sure [logstash](https://www.elastic.co/downloads/logstash) is installed on your computer.
+
+
+
+Download the release from this [link](https://github.com/CommvaultEngg/logstash-commvault-output/releases/download/0.1.0/logstash-output-cv-0.1.0.gem).
+
+
 
 Execute
 
