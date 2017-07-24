@@ -22,11 +22,12 @@ Download the release from this [link](https://github.com/CommvaultEngg/logstash-
 
 
 
-Execute
+Execute the following command from the logstash directory:
 
 ```sh
-logstash-plugin install logstash-output-cv-0.1.0.gem
+bin\logstash-plugin install path/to/logstash-output-cv-0.1.0.gem
 ```
+Note: Use forward slashes in the path to logstash-output-cv-0.1.0.gem.
 
 ### Usage Example. 
 
