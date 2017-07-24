@@ -33,6 +33,8 @@ Note: Use forward slashes in the path to logstash-output-cv-0.1.0.gem.
 
 Use the following logstash output configuration to write into commvault data.
 
+Visit [this](https://github.com/CommvaultEngg/Commvault-logstash-config) repository for an in depth guide to creating the config file.
+
     output
     {
         cv{
